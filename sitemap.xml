@@ -4,70 +4,70 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc> /</loc>
-<lastmod>2023-04-27T14:49:09-00:00</lastmod>
+<loc>https://ludoloon.studio/ludoair/</loc>
+<lastmod>2023-04-27T14:56:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /about/</loc>
+<loc>https://ludoloon.studio/ludoair/about/</loc>
 <lastmod>2023-04-27T13:56:59-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /schedule/</loc>
+<loc>https://ludoloon.studio/ludoair/schedule/</loc>
 <lastmod>2023-04-27T13:38:22-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /auckland-day/</loc>
+<loc>https://ludoloon.studio/ludoair/auckland-day/</loc>
 <lastmod>2023-04-27T12:11:21-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /canada-night/</loc>
+<loc>https://ludoloon.studio/ludoair/canada-night/</loc>
 <lastmod>2023-04-27T12:10:25-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /hiroshima-day/</loc>
+<loc>https://ludoloon.studio/ludoair/hiroshima-day/</loc>
 <lastmod>2023-04-27T12:49:16-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /new-york-night/</loc>
+<loc>https://ludoloon.studio/ludoair/new-york-night/</loc>
 <lastmod>2023-04-27T12:10:35-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /up-north/</loc>
+<loc>https://ludoloon.studio/ludoair/up-north/</loc>
 <lastmod>2023-04-27T12:10:38-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /hello-world/</loc>
+<loc>https://ludoloon.studio/ludoair/hello-world/</loc>
 <lastmod>2023-04-26T18:58:53-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc> /author/ludo-air.html</loc>
+<loc>https://ludoloon.studio/ludoair/author/ludo-air.html</loc>
 <lastmod>2023-04-27T12:49:16-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
