@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Ludo Air - Gallery category</title>
+<meta charset="utf-8"/>
+<meta content="Pelican" name="generator"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href=" /images/favicon.ico" rel="shortcut icon"/>
+<link href=" /feeds/all.atom.xml" rel="alternate" title="Ludo Air Full Atom Feed" type="application/atom+xml"/>
+<link href=" /feeds/gallery.atom.xml" rel="alternate" title="Ludo Air Categories Atom Feed" type="application/atom+xml"/>
+<!--- depends on webassets plugin -->
+<link href=" /theme/css/style.min.css?16f6680d" rel="stylesheet"/>
+<!-- depends on photo-gallery -->
+<link href=" /theme/css/magnific-popup.css" rel="stylesheet"/>
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="/theme/js/jquery-3.6.4.min.js"></script>
+<!-- Custom Ludo Air JS -->
+<script src="/theme/js/ludoair.js"></script>
+</head>
+<body class="home" id="index">
+<header class="body" id="banner">
+<h1><a href=" /">Ludo Air</a></h1>
+<nav id="menu"><ul>
+<li><a href="/about">About</a></li>
+<li><a class="active" href="/category/gallery.html">Gallery</a></li>
+<li><a href="/schedule">Schedule</a></li>
+</ul></nav><!-- /#menu -->
+<!-- searchbar -->
+<!--<input list="terms" id="searchbar" name="searchbar" type="search" placeholder="Search by tag..."> -->
+<select name="searchtag" onchange="location.href=this.value">
+<option disabled="" selected="" value="">Search by tag...</option>
+<option value="/tag/a5-icon.html">A5 Icon</option>
+<option value="/tag/airplane.html">Airplane</option>
+<option value="/tag/clear-skies.html">Clear Skies</option>
+<option value="/tag/cloudy.html">Cloudy</option>
+<option value="/tag/daher-tbm-930.html">Daher TBM 930</option>
+<option value="/tag/day.html">Day</option>
+<option value="/tag/night.html">Night</option>
+<option value="/tag/summer.html">Summer</option>
+<option value="/tag/variety.html">Variety</option>
+<option value="/tag/winter.html">Winter</option>
+</select>
+</header><!-- /#banner -->
+<p id="subtitle">
+<strong>Travel the world... virtually</strong>
+<picture id="logo-image">
+<source srcset="/images/icons/logo.svg" type="image/svg+xml"/>
+<img alt="No SVG Support" srcset="/images/icons/logo.png"/>
+</picture>
+</p>
+<section id="content">
+<h2 class="index-title">Gallery</h2>
+<div class="gallery-category">
+<a class="gallery-photo" href=" /auckland-day/"><p><img src=" /images/Galleries/Auckland - Day/Screenshot_20230410_182005.jpg"/></p></a>
+<a class="gallery-photo" href=" /canada-night/"><p><img src=" /images/Galleries/Canada - Night/Screenshot_20230410_181452.jpg"/></p></a>
+<a class="gallery-photo" href=" /hiroshima-day/"><p><img src=" /images/Galleries/Hiroshima - Day/Screenshot_20230410_180151.jpg"/></p></a>
+<a class="gallery-photo" href=" /new-york-night/"><p><img src=" /images/Galleries/New York - Night/Screenshot_20230410_181657.jpg"/></p></a>
+<a class="gallery-photo" href=" /up-north/"><p><img src=" /images/Galleries/Up North/Screenshot_20230410_174801.jpg"/></p></a>
+<a class="gallery-photo" href=" /hello-world/"><p><img src=" /images/Galleries/Test/Screenshot_20230410_173430.jpg"/></p></a>
+</div>
+</section>
+<footer class="body" id="contentinfo">
+<ul id="footer-list">
+<li><strong><em>Ludo Air</em></strong></li>
+<li>
+<address class="vcard body" id="about">
+<a href="mailto:flight@ludoloon.studio">flight@ludoloon.studio</a>
+</address><!-- /#about -->
+</li>
+<li><nav id="sitemap">
+<a href="/about">About</a>
+<a href="/category/gallery.html">Gallery</a>
+<a href="/schedule">Schedule</a>
+</nav><!-- /#menu -->
+</li>
+</ul>
+</footer><!-- /#contentinfo -->
+<!-- Photos -->
+<!-- Magnific Popup core JS file -->
+<script src="/theme/js/magnific-popup.js"></script>
+<script>
+        $('.gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [1,2]
+          },
+          image: {
+            titleSrc: function(item) {
+              if (item.el.attr('caption') && item.el.attr('exif')) {
+                return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+                  '<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
+              }
+            return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';
+          } }
+        });
+        </script>
+<!-- /Photos -->
+</body>
+</html>

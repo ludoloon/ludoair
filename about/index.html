@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Ludo Air - About</title>
+<meta charset="utf-8"/>
+<meta content="Pelican" name="generator"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href=" /images/favicon.ico" rel="shortcut icon"/>
+<link href=" /feeds/all.atom.xml" rel="alternate" title="Ludo Air Full Atom Feed" type="application/atom+xml"/>
+<!--- depends on webassets plugin -->
+<link href=" /theme/css/style.min.css?16f6680d" rel="stylesheet"/>
+<!-- depends on photo-gallery -->
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="/theme/js/jquery-3.6.4.min.js"></script>
+<!-- Custom Ludo Air JS -->
+<script src="/theme/js/ludoair.js"></script>
+<link href=" /about/" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ludo Air", "item": " "}, {"@type": "ListItem", "position": 2, "name": "About", "item": " /about"}, {"@type": "ListItem", "position": 3, "name": "Index", "item": " /about/index.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Ludo Air"}, "publisher": {"@type": "Organization", "name": "Ludo Air"}, "headline": "About", "about": "pages", "datePublished": "2023-04-27 13:56"}</script></head>
+<body class="home" id="index">
+<header class="body" id="banner">
+<h1><a href=" /">Ludo Air</a></h1>
+<nav id="menu"><ul>
+<li><a class="active" href="/about">About</a></li>
+<li><a href="/category/gallery.html">Gallery</a></li>
+<li><a href="/schedule">Schedule</a></li>
+</ul></nav><!-- /#menu -->
+<!-- searchbar -->
+<!--<input list="terms" id="searchbar" name="searchbar" type="search" placeholder="Search by tag..."> -->
+<select name="searchtag" onchange="location.href=this.value">
+<option disabled="" selected="" value="">Search by tag...</option>
+<option value="/tag/a5-icon.html">A5 Icon</option>
+<option value="/tag/airplane.html">Airplane</option>
+<option value="/tag/clear-skies.html">Clear Skies</option>
+<option value="/tag/cloudy.html">Cloudy</option>
+<option value="/tag/daher-tbm-930.html">Daher TBM 930</option>
+<option value="/tag/day.html">Day</option>
+<option value="/tag/night.html">Night</option>
+<option value="/tag/summer.html">Summer</option>
+<option value="/tag/variety.html">Variety</option>
+<option value="/tag/winter.html">Winter</option>
+</select>
+</header><!-- /#banner -->
+<p id="subtitle">
+<strong>Travel the world... virtually</strong>
+<picture id="logo-image">
+<source srcset="/images/icons/logo.svg" type="image/svg+xml"/>
+<img alt="No SVG Support" srcset="/images/icons/logo.png"/>
+</picture>
+</p>
+<section class="body" id="content">
+<script>
+$( document ).ready(function(){
+        /* Add folded via javascript since js is needed to open it too. */
+        body = document.getElementById("content");  //select from body or else page folds
+        for(section of body.getElementsByTagName("section")){
+
+            root_name = section.id.replace("-section","");
+
+            if(!section.id){continue;}      //avoid null error
+            else if(document.URL.split('#')[1] + "-section" == section.id) {
+                expand_section(root_name);  //fix arrow orientation
+            }
+
+            expand_section(root_name); 
+        }
+    }
+);
+</script>
+<h1> Welcome to Ludo Air!</h1>
+<p>Ludo Air is <strong>part portfolio project, part travel blog</strong> and <strong>part virtual discovery flights</strong>. All thanks to the amazing <a href="https://www.flightsimulator.com/" target="_blank">Microsoft Flight Simulator</a>!</p>
+<p>Whether you want to: </p>
+<ul>
+<li>Book a virtual flight.</li>
+<li>Get quality flight sim footage for your project.</li>
+<li>Check out some cool photos for a new wallpaper.</li>
+<li>Get ideas for where to fly for yourself.</li>
+</ul>
+<p>This space is dedicated to the majesty of flight sim!</p>
+<h2>About Me</h2>
+<section>
+<p>This project in many ways is a culmination of who I am.</p>
+<ul>
+<li>I've always been a Microsoft Flight Simulator fan. Since the 40th anniversary edition launched, I've flown 300+ hours.</li>
+<li>I'm also a web developer who wanted to put together a good portfolio piece to demonstrate my abilities.</li>
+<li><a href="https://ludoloon.studio/flight-sim-portraits/" target="_blank">I even created a music series as LudoLoon Studio using flight sim.</a></li>
+</ul>
+</section>
+<h1>FAQ</h1>
+<p><strong>Have a question that isn't answered below? <a href="mailto:flight@ludoloon.studio">Send an email!</a></strong></p>
+<nav aria-labeledby="toc" class="related-posts">
+<h2 id="toc">Table of Contents</h2>
+<p><em>FAQ is divided by audience.</em></p>
+<ul>
+<li><a href="#flyers" onclick="expand_section('flyers', true)">Flyers</a></li>
+<li><a href="#clients-employers" onclick="expand_section('clients-employers', true)">Clients/Employers - Web Development</a></li>
+<li><a href="#images" onclick="expand_section('images', true)">People using images from here</a></li>
+</ul>
+</nav>
+<h2>Flyers <button id="flyers-button" onclick="expand_section('flyers');" style="width: 3rem; float: right;">&gt;</button></h2>
+<p><a id="flyers"></a></p>
+<section id="flyers-section">
+<h3>How do I "fly" with you?</h3>
+<p>Since Flight sim doesn't actually have a way for you to join me in the same plane (yet), I would share my screen over your choice of Discord, Twitch, etc.</p>
+<p>If you just want footage without tagging along I can record that for you as well.</p>
+<h3> How much does it cost?</h3>
+<p>I charge $1 per minute for virtual flights.</p>
+<h3>How does scheduling a flight work?</h3>
+<p>Once you send me an email, I'll respond to confirm the details of your flight, or let you know if the time you chose won't work for me. We'll figure out what streaming platform works best for you (I can use Discord, Twitch, Zoom, you name it).</p>
+<p>I'll share my screen and take you on the trip you booked!</p>
+<p>If you're not coming with then just use the <em>Date</em> selector to indicate when you want the footage by.</p>
+<h3>Where do you travel?</h3>
+<p>Wherever you want to go! Flight sim has the whole world mapped out with satellite images and 3D generated buildings.</p>
+</section>
+<h2>Clients &amp; Employers - Web Development <button id="clients-employers-button" onclick="expand_section('clients-employers');" style="width: 3rem; float: right;">&gt;</button></h2>
+<p><a id="clients-employers"></a></p>
+<section id="clients-employers-section">
+<h3>How was this made?</h3>
+<p>In an effort to become a web developer I've created this site using the following process and tools.</p>
+<h4>Process</h4>
+<ol>
+<li>Set a deadline of 3 weeks from start to publish. (April 6th to April 27th, 2023)</li>
+<li>Planned the information architecture by answering questions related to this project's <em>context</em>, <em>content</em> and <em>users</em>.</li>
+<li>Wrote up a strategy document with content rules, templates and analysis from the previous step.</li>
+<li>Created design plans (wireframe, metadata to use, style &amp; content rules, etc) based on my research to guide development.</li>
+<li>Set up the development environment, site generator plugins, created test content.</li>
+<li>Implemented the design plan. Built HTML templates, created layout and worked on the main features of the site.</li>
+<li>Tested and refined the website.</li>
+<li>Upload new flights as I go after publishing.</li>
+</ol>
+<h4>Tools</h4>
+<ul>
+<li>Visual Studio Code</li>
+<li>Git</li>
+<li>Pelican (Static Sites Generator)
+    <ul>
+<li><a href="https://github.com/pelican-plugins/photos" target="_blank">Photos</a></li>
+<li><a href="https://github.com/MaevaBrunelles/pelican-seo" target="_blank">SEO</a></li>
+<li><a href="https://github.com/pelican-plugins/sitemap" target="_blank">Sitemap</a></li>
+<li><a href="https://github.com/getpelican/pelican-plugins/tree/master/assets" target="_blank">Assets (Asset management)</a></li>
+<li><a href="https://github.com/pelican-plugins/related-posts" target="_blank">Related Posts</a></li>
+</ul></li>
+<li><a href="https://sass-lang.com/" target="_blank">Sass</a></li>
+<li>JavaScript
+    <ul>
+<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+<li><a href="https://github.com/dimsemenov/Magnific-Popup" target="_blank">Magnific popup</a></li>
+</ul></li>
+</ul>
+<h3>Where can I get in touch?</h3>
+<p>If you want to hire me, send an email to:
+<strong><a href="mailto:hire@ludoloon.studio">hire@ludoloon.studio</a></strong></p>
+<p>For all other inquiries:
+<strong><a href="mailto:inbox@ludoloon.studio">inbox@ludoloon.studio</a></strong></p>
+<p>If you want to see more of my work I have other websites as well:</p>
+<ul>
+<li><a href="https://putz.space" target="_blank">putz.space</a></li>
+<li><a href="https://ludoloon.studio" target="_blank">ludoloon.studio</a></li>
+</ul>
+<h3>What did you learn from this project?</h3>
+<p>I learned the following lessons from this project:</p>
+<ul>
+<li>Better to learn what tools are available than completely reinvent the wheel, especially on a deadline.</li>
+<li>Workflow is non-linear and changes between following research &amp; trialing an approach to make sure it works.</li>
+<li>Workflow for starting a new project:
+        <ul>
+<li>Get the parameters for design.</li>
+<li>Decide on the infrastructure.</li>
+<li>Assemble resources &amp; draft content.</li>
+<li>Get the main idea functional as a working concept</li>
+</ul>
+</li>
+<li>Build a library of reusable components. Some useful ones for the future:
+    <ul>
+<li>2 and 3 column layouts</li>
+<li>Grid layouts</li>
+<li>Expandable/foldable page sections</li>
+</ul>
+<li>How to use Git more effectively.</li>
+<li>What I'd like to add eventually after the initial launch:
+        <ul><li>A proper searchbar</li>
+<li>Create a templated version of the FAQ (instead of duplicate copies)</li>
+<li>Videos, espcially on the front page.</li>
+<li>A tag cloud on gallery</li>
+<li>Content: Guided tours</li>
+</ul></li>
+</li></ul>
+</section>
+<h2>People using the images <button id="images-button" onclick="expand_section('images');" style="width: 3rem; float: right;">&gt;</button></h2>
+<p><a id="images"></a></p>
+<section id="images-section">
+<h3>How are these photos licensed?</h3>
+<p>All photos are licensed under the <strong>Creative Commons - CC BY-NC-SA</strong>.</p>
+<p>That means if you <em>share</em> these that you should:</p>
+<ul>
+<li>Attribute them to me.</li>
+<li>Share them under the same license.</li>
+<li>You can't make money off of them... <em>unless</em></li>
+</ul>
+<p><strong>If you do want to use these images commercially, I'll accept a one time payment of $5 per image</strong> and you can use them how you'd like!</p>
+<p>In return I'll send you images without the watermarks to use royalty free.</p>
+<p>Send an email to discuss more: <a href="mailto:flight@ludoloon.studio">flight@ludoloon.studio</a></p>
+<p>I won't sue you over this or anything (nobody has time for that), it's mostly just a gesture of good will that if you want to use these images commercially that you compensate me for my time. <strong>Plus I'll share your work with my fans if you do!</strong></p>
+</section>
+</section>
+<footer class="body" id="contentinfo">
+<ul id="footer-list">
+<li><strong><em>Ludo Air</em></strong></li>
+<li>
+<address class="vcard body" id="about">
+<a href="mailto:flight@ludoloon.studio">flight@ludoloon.studio</a>
+</address><!-- /#about -->
+</li>
+<li><nav id="sitemap">
+<a href="/about">About</a>
+<a href="/category/gallery.html">Gallery</a>
+<a href="/schedule">Schedule</a>
+</nav><!-- /#menu -->
+</li>
+</ul>
+</footer><!-- /#contentinfo -->
+<!-- Photos -->
+<!-- /Photos -->
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc> /</loc>
+<lastmod>2023-04-27T14:08:58-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /about/</loc>
+<lastmod>2023-04-27T13:56:59-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /schedule/</loc>
+<lastmod>2023-04-27T13:38:22-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /auckland-day/</loc>
+<lastmod>2023-04-27T12:11:21-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /canada-night/</loc>
+<lastmod>2023-04-27T12:10:25-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /hiroshima-day/</loc>
+<lastmod>2023-04-27T12:49:16-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /new-york-night/</loc>
+<lastmod>2023-04-27T12:10:35-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /up-north/</loc>
+<lastmod>2023-04-27T12:10:38-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /hello-world/</loc>
+<lastmod>2023-04-26T18:58:53-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc> /author/ludo-air.html</loc>
+<lastmod>2023-04-27T12:49:16-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+</urlset>
