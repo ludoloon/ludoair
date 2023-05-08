@@ -4,78 +4,78 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://ludoloon.studio/ludoair/</loc>
-<lastmod>2023-05-04T10:08:25-00:00</lastmod>
+<loc>https://air.ludoloon.studio/</loc>
+<lastmod>2023-05-08T18:31:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/about/</loc>
-<lastmod>2023-04-28T20:46:21-05:00</lastmod>
+<loc>https://air.ludoloon.studio/about/</loc>
+<lastmod>2023-05-07T20:19:58-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/schedule/</loc>
-<lastmod>2023-04-27T16:02:44-05:00</lastmod>
+<loc>https://air.ludoloon.studio/schedule/</loc>
+<lastmod>2023-05-07T20:19:58-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/spooky-home-tour/</loc>
-<lastmod>2023-05-04T10:08:23-05:00</lastmod>
+<loc>https://air.ludoloon.studio/spooky-home-tour/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/auckland-day/</loc>
-<lastmod>2023-04-28T18:38:57-05:00</lastmod>
+<loc>https://air.ludoloon.studio/auckland-day/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/canada-night/</loc>
-<lastmod>2023-04-28T18:39:46-05:00</lastmod>
+<loc>https://air.ludoloon.studio/canada-night/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/hiroshima-day/</loc>
-<lastmod>2023-04-27T16:02:44-05:00</lastmod>
+<loc>https://air.ludoloon.studio/hiroshima-day/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/new-york-night/</loc>
-<lastmod>2023-04-28T18:41:18-05:00</lastmod>
+<loc>https://air.ludoloon.studio/new-york-night/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/up-north/</loc>
-<lastmod>2023-04-28T18:41:45-05:00</lastmod>
+<loc>https://air.ludoloon.studio/up-north/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/hello-world/</loc>
-<lastmod>2023-04-28T18:40:25-05:00</lastmod>
+<loc>https://air.ludoloon.studio/hello-world/</loc>
+<lastmod>2023-05-07T20:19:57-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://ludoloon.studio/ludoair/author/ludo-air.html</loc>
-<lastmod>2023-05-04T10:08:23-05:51</lastmod>
+<loc>https://air.ludoloon.studio/author/ludo-air.html</loc>
+<lastmod>2023-05-07T20:19:57-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
