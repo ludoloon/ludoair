@@ -16,8 +16,8 @@
 <script src="https://air.ludoloon.studio/theme/js/jquery-3.6.4.min.js"></script>
 <!-- Custom Ludo Air JS -->
 <script src="https://air.ludoloon.studio/theme/js/ludoair.js"></script>
-<meta content="Ludo Air - Travel blog, virtual flight tours and Microsoft Flight Sim wallpapers." name="description">
-</meta></head>
+<meta content="Ludo Air - Travel blog, virtual flight tours and Microsoft Flight Sim wallpapers." name="description"/>
+</head>
 <body class="home" id="index">
 <header class="body" id="banner">
 <h1><a href="https://air.ludoloon.studio/">Ludo Air</a></h1>
@@ -56,7 +56,7 @@
 <strong>Travel the world... virtually</strong>
 <picture id="logo-image">
 <source srcset="https://air.ludoloon.studio/images/icons/logo.svg" type="image/svg+xml"/>
-<img alt="No SVG Support" srcset="https://air.ludoloon.studio/images/icons/logo.png"/>
+<img alt="No SVG Support" src="https://air.ludoloon.studio/images/icons/logo.png"/>
 </picture>
 </p>
 <section id="content">
@@ -171,7 +171,7 @@
           image: {
             titleSrc: function(item) {
               if (item.el.attr('caption') && item.el.attr('exif')) {
-                return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+                return (item.el.attr('caption').replace(/\\n/g, '<br >') +
                   '<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
               }
             return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';

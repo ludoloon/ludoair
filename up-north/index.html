@@ -18,12 +18,12 @@
 <!-- Custom Ludo Air JS -->
 <script src="https://air.ludoloon.studio/theme/js/ludoair.js"></script>
 <meta content="Photo Gallery - flying over a big lake and landing at a gorgeous lighthouse." name="description"/>
-<meta content="Night" name="tags">
+<meta content="Night" name="tags"/>
 <meta content="Winter" name="tags"/>
 <meta content="Partly Cloudy" name="tags"/>
 <meta content="Airplane" name="tags"/>
 <meta content="A5 Icon" name="tags"/>
-</meta><link href="https://air.ludoloon.studio/up-north/" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ludo Air", "item": "https://air.ludoloon.studio"}, {"@type": "ListItem", "position": 2, "name": "Up north", "item": "https://air.ludoloon.studio/up-north"}, {"@type": "ListItem", "position": 3, "name": "Index", "item": "https://air.ludoloon.studio/up-north/index.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Ludo Air"}, "publisher": {"@type": "Organization", "name": "Ludo Air"}, "headline": "Up North", "about": "Gallery", "datePublished": "2023-04-10 00:00"}</script></head>
+<link href="https://air.ludoloon.studio/up-north/" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ludo Air", "item": "https://air.ludoloon.studio"}, {"@type": "ListItem", "position": 2, "name": "Up north", "item": "https://air.ludoloon.studio/up-north"}, {"@type": "ListItem", "position": 3, "name": "Index", "item": "https://air.ludoloon.studio/up-north/index.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Ludo Air"}, "publisher": {"@type": "Organization", "name": "Ludo Air"}, "headline": "Up North", "about": "Gallery", "datePublished": "2023-04-10 00:00"}</script></head>
 <body class="home" id="index">
 <header class="body" id="banner">
 <h1><a href="https://air.ludoloon.studio/">Ludo Air</a></h1>
@@ -62,7 +62,7 @@
 <strong>Travel the world... virtually</strong>
 <picture id="logo-image">
 <source srcset="https://air.ludoloon.studio/images/icons/logo.svg" type="image/svg+xml"/>
-<img alt="No SVG Support" srcset="https://air.ludoloon.studio/images/icons/logo.png"/>
+<img alt="No SVG Support" src="https://air.ludoloon.studio/images/icons/logo.png"/>
 </picture>
 </p>
 <section class="body" id="content">
@@ -158,7 +158,7 @@
           image: {
             titleSrc: function(item) {
               if (item.el.attr('caption') && item.el.attr('exif')) {
-                return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+                return (item.el.attr('caption').replace(/\\n/g, '<br >') +
                   '<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
               }
             return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';
