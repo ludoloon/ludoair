@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/</loc>
-<lastmod>2023-05-08T18:31:33-00:00</lastmod>
+<lastmod>2023-05-11T09:05:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -25,8 +25,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://air.ludoloon.studio/sitka-alaska/</loc>
+<lastmod>2023-05-11T09:04:02-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://air.ludoloon.studio/spooky-home-tour/</loc>
-<lastmod>2023-05-07T20:19:57-05:00</lastmod>
+<lastmod>2023-05-08T18:32:31-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/author/ludo-air.html</loc>
-<lastmod>2023-05-07T20:19:57-05:51</lastmod>
+<lastmod>2023-05-11T09:04:02-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
