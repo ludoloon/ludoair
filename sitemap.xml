@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/</loc>
-<lastmod>2023-06-01T09:28:44-00:00</lastmod>
+<lastmod>2023-06-06T19:50:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -25,8 +25,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://air.ludoloon.studio/fes-morocco/</loc>
-<lastmod>2023-06-01T09:28:06-05:00</lastmod>
+<loc>https://air.ludoloon.studio/fez-morocco/</loc>
+<lastmod>2023-06-06T19:37:07-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/author/ludo-air.html</loc>
-<lastmod>2023-06-01T09:28:06-05:51</lastmod>
+<lastmod>2023-06-06T19:37:07-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -445,6 +445,33 @@ section{
     p{padding: .5rem; margin: .5rem;}
 }
 
+.paginator {
+    //layout
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $default-padding;
+    margin: $default-margin;
+   
+    //style
+    //background-color: $color-base;
+    font-size: 2rem;
+    a {
+        background: $color-primary;
+        color: $color-contrast;
+        padding: .5rem;
+        @include default-border-style;
+    }
+    span:nth-child(2){
+        background: $color-tertiary;
+        padding: .5rem;
+        @include default-border-style;
+    }
+    a:hover, a:focus, a:active{
+        background-color: $color-accent;
+    }
+}
+
 /* Photo Gallery */
 .gallery {
     text-align: center;
