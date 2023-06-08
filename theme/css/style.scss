@@ -483,24 +483,26 @@ section{
 }
 
 .gallery-category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     text-align: center;
-    img{
-        margin: 4px 4px;
-        border: black solid 1px;
-        box-shadow: 2px 2px;
-    }
-}
-
-.gallery-photo{
-    p {
-        display: inline;
-        img{width: 30.5%;}
+    p{
+        //layout
+        width: 30.5%;
         @media(max-width: $mobile-breakpoint-tablet){
-            img{width: 45%;}
+            width: 45%;
         }
         @media(max-width: $mobile-breakpoint-smallest){
             display: block;
-            img{width: 96%; }
+            width: 96%; 
+        }
+        img {
+            //layout
+            margin: 4px 4px;
+            //style
+            border: black solid 1px;
+            box-shadow: 2px 2px;
         }
     }
 }
