@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/</loc>
-<lastmod>2023-06-08T17:04:31-00:00</lastmod>
+<lastmod>2023-06-08T19:36:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,14 +103,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/hello-world/</loc>
-<lastmod>2023-06-08T17:04:26-05:00</lastmod>
+<lastmod>2023-06-08T17:09:17-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://air.ludoloon.studio/author/ludo-air.html</loc>
-<lastmod>2023-06-08T17:04:26-05:51</lastmod>
+<lastmod>2023-06-08T17:09:17-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
