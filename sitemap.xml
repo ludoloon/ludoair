@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/</loc>
-<lastmod>2023-06-15T10:47:21-00:00</lastmod>
+<lastmod>2023-06-22T08:58:52-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -20,6 +20,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://air.ludoloon.studio/schedule/</loc>
 <lastmod>2023-05-07T20:19:58-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://air.ludoloon.studio/reykjavik/</loc>
+<lastmod>2023-06-22T08:58:12-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -117,7 +124,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://air.ludoloon.studio/author/ludo-air.html</loc>
-<lastmod>2023-06-15T10:47:07-05:51</lastmod>
+<lastmod>2023-06-22T08:58:12-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
